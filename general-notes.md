@@ -135,7 +135,9 @@ Not default
 |Get-ADUser                         |https://docs.microsoft.com/en-us/powershell/module/activedirectory/get-aduser?view=winserver2012-ps  |
 |Search-ADAccount –LockedOut        |Shows all accounts locked out in domain     |
 
+To view the paths that are specified in the PSModulePath variable, type the following command:
 
+$env:PSModulePath
 
 
 
